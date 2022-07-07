@@ -153,12 +153,10 @@ article {
     font-weight:700;
 }
 
-.article2 .tourist {
-    width:375px;
-    height:65px;
-}
+.article2 .tourist {}
 .tourist .swiper-wrapper {}
 .tourist .swiper-slide {
+    width:auto;
     display:inline-block;
 }
 .tourist .swiper-slide a {
@@ -207,17 +205,18 @@ article {
 .recommend_menu .swiper-wrapper {}
 
 .recommend_menu .swiper-slide {
-    border:1px solid blue;
+    width:auto;
 }
 .recommend_menu .swiper-slide a {
-    display:inline-block;
+    display:block;
     height:24px;
     padding:5px 14px;
     text-align:center;
     border-radius:15px;
     border:1px solid #4483BF;
-    font-size:14px;
+    font-size:12px;
     color:#4483BF;
+    line-height:12px;
 }
 
 .recommend_menu .swiper-wrapper a.active {
@@ -228,22 +227,21 @@ article {
 s
 
 .article3 {}
-.article3 .recommend_hotel {
-    width:375px;
-    height:169px;
-}
+.article3 .recommend_hotel {}
 .recommend_hotel .swiper-wrapper {
     margin-top:20px;
 }
-.recommend_hotel .swiper-slide {}
+.recommend_hotel .swiper-slide {
+    width:auto;
+}
 .recommend_hotel .swiper-slide a {
-    display:block;
+    display:inline-block;
     text-align:center;
 }
 .recommend_hotel .swiper-slide a:last-child {}
 .recommend_hotel .swiper-slide a img {
-    width:100%;
-    height:100%;
+    width:130px;
+    height:130px;
     border-radius:8px;
 }
 

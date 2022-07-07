@@ -8,10 +8,9 @@ const swiper1 = new Swiper(".main_slider", {
 });
 
 //인기여행지
-const swiper2 = swiper = new Swiper(".tourist", {
-    slidesPerView: 5,
-    spaceBetween: 10,
-    freeMode: true,
+const swiper2 = new Swiper(".tourist", {
+    slidesPerView: "auto",
+    spaceBetween:10,
 });
 
 //추천해줄개 메뉴
@@ -21,15 +20,11 @@ const swiper3 = new Swiper(".recommend_menu", {
 });
 
 //추천해줄개 이미지
-const swiper4 = swiper = new Swiper(".recommend_hotel", {
-    slidesPerView: 3,
-    spaceBetween: 10,
-    freeMode: true,
+const swiper4 = new Swiper(".recommend_hotel", {
+    slidesPerView: "auto",
+    spaceBetween:10,
 });
 
-// const swiper5 = new Swiper(".recommend_hotel", {
-//     slidesPerView: "auto",
-//     spaceBetween:10,
-// });
+
 
 
