@@ -295,7 +295,7 @@ footer {
 }
 .footer_wrap a {
     display:inline-block;
-    font-size:10px;
+    font-size:8px;
     color:#E3EFFA;
 }
 
@@ -326,6 +326,6 @@ footer {
 }
 .gnb span {
     display:block;
-    font-size:14px;
+    font-size:12px;
     color:#27405C;
 }
