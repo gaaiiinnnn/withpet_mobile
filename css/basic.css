@@ -16,21 +16,29 @@ ul:after {
 
 
 /* header */
-header {}
+header {
+    background:#fff;
+}
 .header_wrap {
     position:relative;
     height:48px;
     text-align:center;
-    margin-bottom:15px;
 }
 
 .header_wrap h1 {
-    position:absolute;
-    top:10px;
-    left:138px;
+    position:fixed;
+    width:375px;
+    height:48px;
+    background:#fff;
+    line-height:48px;
+    z-index:9999;
+}
+.header_wrap h1 a {
+    display:inline-block;
+    margin-top:10px;
     width:100px;
     height:28px;
-    background:url('../img/header_logo.png') no-repeat center / 100%;
+    background:url('../img/header_logo.png') 0 0 / 100px 28px no-repeat;
     text-indent:-9999px;
 }
 
@@ -302,17 +310,23 @@ footer {
 
 /* 하단 gnb */
 .gnb {
-    max-width:640px;
-    min-width:320px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    width:375px;
     height:70px;
     background:#E3EFFA;
-    padding:0 20px;
+    text-align:center;
+    z-index:9999;
 }
-.gnb ul {}
+.gnb ul {
+    display:inline-block;
+}
 .gnb li {
     float:left;
     margin-top:15px;
-    margin-right:60px;
+    margin-right:50px;
 }
 .gnb li:last-child {
     margin-right:0;
@@ -326,6 +340,6 @@ footer {
 }
 .gnb span {
     display:block;
-    font-size:12px;
+    font-size:10px;
     color:#27405C;
 }
