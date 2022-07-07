@@ -310,10 +310,12 @@ footer {
 
 /* 하단 gnb */
 .gnb {
+    position:relative;
+}
+.gnb_wrap {
     position:fixed;
     bottom:0;
-    left:0;
-    right:0;
+    display:inline-block;
     width:375px;
     height:70px;
     background:#E3EFFA;
